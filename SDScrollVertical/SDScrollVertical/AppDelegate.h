@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  SDScrollVertical
 //
-//  Created by Mac on 16/1/15.
+//  Created by suya on 16/1/15.
 //  Copyright © 2016年 suya. All rights reserved.
 //
 

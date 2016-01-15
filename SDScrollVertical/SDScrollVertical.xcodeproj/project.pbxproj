@@ -15,6 +15,11 @@
 		04F89BDC1C48C588004F707B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F89BDA1C48C588004F707B /* LaunchScreen.storyboard */; };
 		04F89BE71C48C588004F707B /* SDScrollVerticalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F89BE61C48C588004F707B /* SDScrollVerticalTests.m */; };
 		04F89BF21C48C588004F707B /* SDScrollVerticalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F89BF11C48C588004F707B /* SDScrollVerticalUITests.m */; };
+		04F89C041C48CB8D004F707B /* SDScrollVerticalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F89C011C48CB8D004F707B /* SDScrollVerticalView.m */; };
+		04F89C051C48CB8D004F707B /* SYVerticalPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F89C031C48CB8D004F707B /* SYVerticalPageControl.m */; };
+		3D6B1AE0A97942F21AC09A54 /* libPods-SDScrollVertical.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A79E28DFCE7FB5ED02D953 /* libPods-SDScrollVertical.a */; };
+		B741264688D23973690DFFCC /* libPods-SDScrollVerticalTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F032A520B56EBA1CB1A54035 /* libPods-SDScrollVerticalTests.a */; };
+		F9E9651D1859F4B240DDD595 /* libPods-SDScrollVerticalUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 043C8F92217054F792291890 /* libPods-SDScrollVerticalUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043C8F92217054F792291890 /* libPods-SDScrollVerticalUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDScrollVerticalUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F89BC91C48C588004F707B /* SDScrollVertical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDScrollVertical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F89BCD1C48C588004F707B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04F89BCF1C48C588004F707B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,19 @@
 		04F89BED1C48C588004F707B /* SDScrollVerticalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDScrollVerticalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F89BF11C48C588004F707B /* SDScrollVerticalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDScrollVerticalUITests.m; sourceTree = "<group>"; };
 		04F89BF31C48C588004F707B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F89C001C48CB8D004F707B /* SDScrollVerticalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDScrollVerticalView.h; sourceTree = "<group>"; };
+		04F89C011C48CB8D004F707B /* SDScrollVerticalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDScrollVerticalView.m; sourceTree = "<group>"; };
+		04F89C021C48CB8D004F707B /* SYVerticalPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYVerticalPageControl.h; sourceTree = "<group>"; };
+		04F89C031C48CB8D004F707B /* SYVerticalPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYVerticalPageControl.m; sourceTree = "<group>"; };
+		04F89C061C48CC25004F707B /* SDMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDMacro.h; sourceTree = "<group>"; };
+		32E9232ECEB0BD3BBC674B1E /* Pods-SDScrollVerticalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDScrollVerticalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDScrollVerticalTests/Pods-SDScrollVerticalTests.release.xcconfig"; sourceTree = "<group>"; };
+		41A79E28DFCE7FB5ED02D953 /* libPods-SDScrollVertical.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDScrollVertical.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7872224DAA0322F118F30170 /* Pods-SDScrollVertical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDScrollVertical.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDScrollVertical/Pods-SDScrollVertical.release.xcconfig"; sourceTree = "<group>"; };
+		7FB4190EC70A31BEE71FB69C /* Pods-SDScrollVerticalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDScrollVerticalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDScrollVerticalTests/Pods-SDScrollVerticalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88D128FF95FB123728D9069F /* Pods-SDScrollVertical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDScrollVertical.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDScrollVertical/Pods-SDScrollVertical.debug.xcconfig"; sourceTree = "<group>"; };
+		B342E415DDF149F8965556F0 /* Pods-SDScrollVerticalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDScrollVerticalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDScrollVerticalUITests/Pods-SDScrollVerticalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E96C6B069B0F3C6A2D1E30E2 /* Pods-SDScrollVerticalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDScrollVerticalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDScrollVerticalUITests/Pods-SDScrollVerticalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F032A520B56EBA1CB1A54035 /* libPods-SDScrollVerticalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDScrollVerticalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6B1AE0A97942F21AC09A54 /* libPods-SDScrollVertical.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B741264688D23973690DFFCC /* libPods-SDScrollVerticalTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E9651D1859F4B240DDD595 /* libPods-SDScrollVerticalUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +107,8 @@
 				04F89BE51C48C588004F707B /* SDScrollVerticalTests */,
 				04F89BF01C48C588004F707B /* SDScrollVerticalUITests */,
 				04F89BCA1C48C588004F707B /* Products */,
+				785B08C34BE169309B3A64FE /* Pods */,
+				49639F2E60C8C0A6425C08AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +125,7 @@
 		04F89BCB1C48C588004F707B /* SDScrollVertical */ = {
 			isa = PBXGroup;
 			children = (
+				04F89BFF1C48CB54004F707B /* VerticalScroll */,
 				04F89BCF1C48C588004F707B /* AppDelegate.h */,
 				04F89BD01C48C588004F707B /* AppDelegate.m */,
 				04F89BD21C48C588004F707B /* ViewController.h */,
@@ -110,6 +135,7 @@
 				04F89BDA1C48C588004F707B /* LaunchScreen.storyboard */,
 				04F89BDD1C48C588004F707B /* Info.plist */,
 				04F89BCC1C48C588004F707B /* Supporting Files */,
+				04F89C061C48CC25004F707B /* SDMacro.h */,
 			);
 			path = SDScrollVertical;
 			sourceTree = "<group>";
@@ -140,6 +166,40 @@
 			path = SDScrollVerticalUITests;
 			sourceTree = "<group>";
 		};
+		04F89BFF1C48CB54004F707B /* VerticalScroll */ = {
+			isa = PBXGroup;
+			children = (
+				04F89C001C48CB8D004F707B /* SDScrollVerticalView.h */,
+				04F89C011C48CB8D004F707B /* SDScrollVerticalView.m */,
+				04F89C021C48CB8D004F707B /* SYVerticalPageControl.h */,
+				04F89C031C48CB8D004F707B /* SYVerticalPageControl.m */,
+			);
+			name = VerticalScroll;
+			sourceTree = "<group>";
+		};
+		49639F2E60C8C0A6425C08AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41A79E28DFCE7FB5ED02D953 /* libPods-SDScrollVertical.a */,
+				F032A520B56EBA1CB1A54035 /* libPods-SDScrollVerticalTests.a */,
+				043C8F92217054F792291890 /* libPods-SDScrollVerticalUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		785B08C34BE169309B3A64FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88D128FF95FB123728D9069F /* Pods-SDScrollVertical.debug.xcconfig */,
+				7872224DAA0322F118F30170 /* Pods-SDScrollVertical.release.xcconfig */,
+				7FB4190EC70A31BEE71FB69C /* Pods-SDScrollVerticalTests.debug.xcconfig */,
+				32E9232ECEB0BD3BBC674B1E /* Pods-SDScrollVerticalTests.release.xcconfig */,
+				B342E415DDF149F8965556F0 /* Pods-SDScrollVerticalUITests.debug.xcconfig */,
+				E96C6B069B0F3C6A2D1E30E2 /* Pods-SDScrollVerticalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F89BF61C48C588004F707B /* Build configuration list for PBXNativeTarget "SDScrollVertical" */;
 			buildPhases = (
+				E5CE79C96377C80B8AEDD5AA /* Check Pods Manifest.lock */,
 				04F89BC51C48C588004F707B /* Sources */,
 				04F89BC61C48C588004F707B /* Frameworks */,
 				04F89BC71C48C588004F707B /* Resources */,
+				E2D313A30866370289346D54 /* Embed Pods Frameworks */,
+				7E9E71230C6A31BDFA844510 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F89BF91C48C588004F707B /* Build configuration list for PBXNativeTarget "SDScrollVerticalTests" */;
 			buildPhases = (
+				371AF5D3CC68EF3250E7722F /* Check Pods Manifest.lock */,
 				04F89BDE1C48C588004F707B /* Sources */,
 				04F89BDF1C48C588004F707B /* Frameworks */,
 				04F89BE01C48C588004F707B /* Resources */,
+				5595FB1FDE3133BE59BEF0E2 /* Embed Pods Frameworks */,
+				DB30CCC3D9EF47F6645B2A87 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F89BFC1C48C588004F707B /* Build configuration list for PBXNativeTarget "SDScrollVerticalUITests" */;
 			buildPhases = (
+				74142CDF0DF6AEBAF9230A49 /* Check Pods Manifest.lock */,
 				04F89BE91C48C588004F707B /* Sources */,
 				04F89BEA1C48C588004F707B /* Frameworks */,
 				04F89BEB1C48C588004F707B /* Resources */,
+				3DEB96659217881CFC2647D8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,13 +333,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		371AF5D3CC68EF3250E7722F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3DEB96659217881CFC2647D8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDScrollVerticalUITests/Pods-SDScrollVerticalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5595FB1FDE3133BE59BEF0E2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDScrollVerticalTests/Pods-SDScrollVerticalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74142CDF0DF6AEBAF9230A49 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9E71230C6A31BDFA844510 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDScrollVertical/Pods-SDScrollVertical-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB30CCC3D9EF47F6645B2A87 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDScrollVerticalTests/Pods-SDScrollVerticalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D313A30866370289346D54 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDScrollVertical/Pods-SDScrollVertical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5CE79C96377C80B8AEDD5AA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04F89BC51C48C588004F707B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F89C041C48CB8D004F707B /* SDScrollVerticalView.m in Sources */,
 				04F89BD41C48C588004F707B /* ViewController.m in Sources */,
 				04F89BD11C48C588004F707B /* AppDelegate.m in Sources */,
+				04F89C051C48CB8D004F707B /* SYVerticalPageControl.m in Sources */,
 				04F89BCE1C48C588004F707B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +602,7 @@
 		};
 		04F89BF71C48C588004F707B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D128FF95FB123728D9069F /* Pods-SDScrollVertical.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SDScrollVertical/Info.plist;
@@ -420,6 +614,7 @@
 		};
 		04F89BF81C48C588004F707B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7872224DAA0322F118F30170 /* Pods-SDScrollVertical.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SDScrollVertical/Info.plist;
@@ -431,6 +626,7 @@
 		};
 		04F89BFA1C48C588004F707B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FB4190EC70A31BEE71FB69C /* Pods-SDScrollVerticalTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SDScrollVerticalTests/Info.plist;
@@ -443,6 +639,7 @@
 		};
 		04F89BFB1C48C588004F707B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E9232ECEB0BD3BBC674B1E /* Pods-SDScrollVerticalTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SDScrollVerticalTests/Info.plist;
@@ -455,6 +652,7 @@
 		};
 		04F89BFD1C48C588004F707B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B342E415DDF149F8965556F0 /* Pods-SDScrollVerticalUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SDScrollVerticalUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -467,6 +665,7 @@
 		};
 		04F89BFE1C48C588004F707B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96C6B069B0F3C6A2D1E30E2 /* Pods-SDScrollVerticalUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SDScrollVerticalUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -496,6 +695,7 @@
 				04F89BF81C48C588004F707B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F89BF91C48C588004F707B /* Build configuration list for PBXNativeTarget "SDScrollVerticalTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +704,7 @@
 				04F89BFB1C48C588004F707B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F89BFC1C48C588004F707B /* Build configuration list for PBXNativeTarget "SDScrollVerticalUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +713,7 @@
 				04F89BFE1C48C588004F707B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

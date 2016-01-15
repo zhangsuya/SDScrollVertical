@@ -1,0 +1,24 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'SDScrollVertical' do
+
+
+
+pod 'SDWebImage', '~> 3.7.4'
+
+
+pod 'SDCycleScrollView', '~> 1.6'
+
+end
+
+target 'SDScrollVerticalTests' do
+
+end
+
+target 'SDScrollVerticalUITests' do
+
+end
+
