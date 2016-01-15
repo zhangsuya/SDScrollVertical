@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F89BCE1C48C588004F707B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F89BCD1C48C588004F707B /* main.m */; };
+		04F89BD11C48C588004F707B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F89BD01C48C588004F707B /* AppDelegate.m */; };
+		04F89BD41C48C588004F707B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F89BD31C48C588004F707B /* ViewController.m */; };
+		04F89BD71C48C588004F707B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F89BD51C48C588004F707B /* Main.storyboard */; };
+		04F89BD91C48C588004F707B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F89BD81C48C588004F707B /* Assets.xcassets */; };
+		04F89BDC1C48C588004F707B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F89BDA1C48C588004F707B /* LaunchScreen.storyboard */; };
+		04F89BE71C48C588004F707B /* SDScrollVerticalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F89BE61C48C588004F707B /* SDScrollVerticalTests.m */; };
+		04F89BF21C48C588004F707B /* SDScrollVerticalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F89BF11C48C588004F707B /* SDScrollVerticalUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F89BE31C48C588004F707B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F89BC11C48C587004F707B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F89BC81C48C588004F707B;
+			remoteInfo = SDScrollVertical;
+		};
+		04F89BEE1C48C588004F707B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F89BC11C48C587004F707B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F89BC81C48C588004F707B;
+			remoteInfo = SDScrollVertical;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F89BC91C48C588004F707B /* SDScrollVertical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDScrollVertical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F89BCD1C48C588004F707B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F89BCF1C48C588004F707B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F89BD01C48C588004F707B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F89BD21C48C588004F707B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04F89BD31C48C588004F707B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04F89BD61C48C588004F707B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F89BD81C48C588004F707B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F89BDB1C48C588004F707B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F89BDD1C48C588004F707B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F89BE21C48C588004F707B /* SDScrollVerticalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDScrollVerticalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F89BE61C48C588004F707B /* SDScrollVerticalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDScrollVerticalTests.m; sourceTree = "<group>"; };
+		04F89BE81C48C588004F707B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F89BED1C48C588004F707B /* SDScrollVerticalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDScrollVerticalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F89BF11C48C588004F707B /* SDScrollVerticalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDScrollVerticalUITests.m; sourceTree = "<group>"; };
+		04F89BF31C48C588004F707B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F89BC61C48C588004F707B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F89BDF1C48C588004F707B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F89BEA1C48C588004F707B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F89BC01C48C587004F707B = {
+			isa = PBXGroup;
+			children = (
+				04F89BCB1C48C588004F707B /* SDScrollVertical */,
+				04F89BE51C48C588004F707B /* SDScrollVerticalTests */,
+				04F89BF01C48C588004F707B /* SDScrollVerticalUITests */,
+				04F89BCA1C48C588004F707B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F89BCA1C48C588004F707B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F89BC91C48C588004F707B /* SDScrollVertical.app */,
+				04F89BE21C48C588004F707B /* SDScrollVerticalTests.xctest */,
+				04F89BED1C48C588004F707B /* SDScrollVerticalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F89BCB1C48C588004F707B /* SDScrollVertical */ = {
+			isa = PBXGroup;
+			children = (
+				04F89BCF1C48C588004F707B /* AppDelegate.h */,
+				04F89BD01C48C588004F707B /* AppDelegate.m */,
+				04F89BD21C48C588004F707B /* ViewController.h */,
+				04F89BD31C48C588004F707B /* ViewController.m */,
+				04F89BD51C48C588004F707B /* Main.storyboard */,
+				04F89BD81C48C588004F707B /* Assets.xcassets */,
+				04F89BDA1C48C588004F707B /* LaunchScreen.storyboard */,
+				04F89BDD1C48C588004F707B /* Info.plist */,
+				04F89BCC1C48C588004F707B /* Supporting Files */,
+			);
+			path = SDScrollVertical;
+			sourceTree = "<group>";
+		};
+		04F89BCC1C48C588004F707B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F89BCD1C48C588004F707B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F89BE51C48C588004F707B /* SDScrollVerticalTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F89BE61C48C588004F707B /* SDScrollVerticalTests.m */,
+				04F89BE81C48C588004F707B /* Info.plist */,
+			);
+			path = SDScrollVerticalTests;
+			sourceTree = "<group>";
+		};
+		04F89BF01C48C588004F707B /* SDScrollVerticalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F89BF11C48C588004F707B /* SDScrollVerticalUITests.m */,
+				04F89BF31C48C588004F707B /* Info.plist */,
+			);
+			path = SDScrollVerticalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F89BC81C48C588004F707B /* SDScrollVertical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F89BF61C48C588004F707B /* Build configuration list for PBXNativeTarget "SDScrollVertical" */;
+			buildPhases = (
+				04F89BC51C48C588004F707B /* Sources */,
+				04F89BC61C48C588004F707B /* Frameworks */,
+				04F89BC71C48C588004F707B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDScrollVertical;
+			productName = SDScrollVertical;
+			productReference = 04F89BC91C48C588004F707B /* SDScrollVertical.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F89BE11C48C588004F707B /* SDScrollVerticalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F89BF91C48C588004F707B /* Build configuration list for PBXNativeTarget "SDScrollVerticalTests" */;
+			buildPhases = (
+				04F89BDE1C48C588004F707B /* Sources */,
+				04F89BDF1C48C588004F707B /* Frameworks */,
+				04F89BE01C48C588004F707B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F89BE41C48C588004F707B /* PBXTargetDependency */,
+			);
+			name = SDScrollVerticalTests;
+			productName = SDScrollVerticalTests;
+			productReference = 04F89BE21C48C588004F707B /* SDScrollVerticalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F89BEC1C48C588004F707B /* SDScrollVerticalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F89BFC1C48C588004F707B /* Build configuration list for PBXNativeTarget "SDScrollVerticalUITests" */;
+			buildPhases = (
+				04F89BE91C48C588004F707B /* Sources */,
+				04F89BEA1C48C588004F707B /* Frameworks */,
+				04F89BEB1C48C588004F707B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F89BEF1C48C588004F707B /* PBXTargetDependency */,
+			);
+			name = SDScrollVerticalUITests;
+			productName = SDScrollVerticalUITests;
+			productReference = 04F89BED1C48C588004F707B /* SDScrollVerticalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F89BC11C48C587004F707B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = suya;
+				TargetAttributes = {
+					04F89BC81C48C588004F707B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					04F89BE11C48C588004F707B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 04F89BC81C48C588004F707B;
+					};
+					04F89BEC1C48C588004F707B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 04F89BC81C48C588004F707B;
+					};
+				};
+			};
+			buildConfigurationList = 04F89BC41C48C587004F707B /* Build configuration list for PBXProject "SDScrollVertical" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F89BC01C48C587004F707B;
+			productRefGroup = 04F89BCA1C48C588004F707B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F89BC81C48C588004F707B /* SDScrollVertical */,
+				04F89BE11C48C588004F707B /* SDScrollVerticalTests */,
+				04F89BEC1C48C588004F707B /* SDScrollVerticalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F89BC71C48C588004F707B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F89BDC1C48C588004F707B /* LaunchScreen.storyboard in Resources */,
+				04F89BD91C48C588004F707B /* Assets.xcassets in Resources */,
+				04F89BD71C48C588004F707B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F89BE01C48C588004F707B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F89BEB1C48C588004F707B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F89BC51C48C588004F707B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F89BD41C48C588004F707B /* ViewController.m in Sources */,
+				04F89BD11C48C588004F707B /* AppDelegate.m in Sources */,
+				04F89BCE1C48C588004F707B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F89BDE1C48C588004F707B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F89BE71C48C588004F707B /* SDScrollVerticalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F89BE91C48C588004F707B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F89BF21C48C588004F707B /* SDScrollVerticalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F89BE41C48C588004F707B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F89BC81C48C588004F707B /* SDScrollVertical */;
+			targetProxy = 04F89BE31C48C588004F707B /* PBXContainerItemProxy */;
+		};
+		04F89BEF1C48C588004F707B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F89BC81C48C588004F707B /* SDScrollVertical */;
+			targetProxy = 04F89BEE1C48C588004F707B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F89BD51C48C588004F707B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F89BD61C48C588004F707B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F89BDA1C48C588004F707B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F89BDB1C48C588004F707B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F89BF41C48C588004F707B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F89BF51C48C588004F707B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F89BF71C48C588004F707B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDScrollVertical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suya.SDScrollVertical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04F89BF81C48C588004F707B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDScrollVertical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suya.SDScrollVertical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04F89BFA1C48C588004F707B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SDScrollVerticalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suya.SDScrollVerticalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDScrollVertical.app/SDScrollVertical";
+			};
+			name = Debug;
+		};
+		04F89BFB1C48C588004F707B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SDScrollVerticalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suya.SDScrollVerticalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDScrollVertical.app/SDScrollVertical";
+			};
+			name = Release;
+		};
+		04F89BFD1C48C588004F707B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SDScrollVerticalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suya.SDScrollVerticalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SDScrollVertical;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04F89BFE1C48C588004F707B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SDScrollVerticalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suya.SDScrollVerticalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SDScrollVertical;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F89BC41C48C587004F707B /* Build configuration list for PBXProject "SDScrollVertical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F89BF41C48C588004F707B /* Debug */,
+				04F89BF51C48C588004F707B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F89BF61C48C588004F707B /* Build configuration list for PBXNativeTarget "SDScrollVertical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F89BF71C48C588004F707B /* Debug */,
+				04F89BF81C48C588004F707B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04F89BF91C48C588004F707B /* Build configuration list for PBXNativeTarget "SDScrollVerticalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F89BFA1C48C588004F707B /* Debug */,
+				04F89BFB1C48C588004F707B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04F89BFC1C48C588004F707B /* Build configuration list for PBXNativeTarget "SDScrollVerticalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F89BFD1C48C588004F707B /* Debug */,
+				04F89BFE1C48C588004F707B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F89BC11C48C587004F707B /* Project object */;
+}
