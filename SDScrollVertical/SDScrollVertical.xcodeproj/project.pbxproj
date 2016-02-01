@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0456CF721C5B170700389367 /* 垂直滚播.mov in Resources */ = {isa = PBXBuildFile; fileRef = 0456CF711C5B170700389367 /* 垂直滚播.mov */; };
-		0456CF7A1C5B36C700389367 /* 垂直.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0456CF791C5B36C700389367 /* 垂直.gif */; };
+		0456CF7A1C5B36C700389367 /* Ver.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0456CF791C5B36C700389367 /* Ver.gif */; };
 		04F89BCE1C48C588004F707B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F89BCD1C48C588004F707B /* main.m */; };
 		04F89BD11C48C588004F707B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F89BD01C48C588004F707B /* AppDelegate.m */; };
 		04F89BD41C48C588004F707B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F89BD31C48C588004F707B /* ViewController.m */; };
@@ -44,7 +44,7 @@
 /* Begin PBXFileReference section */
 		043C8F92217054F792291890 /* libPods-SDScrollVerticalUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDScrollVerticalUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0456CF711C5B170700389367 /* 垂直滚播.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "垂直滚播.mov"; sourceTree = "<group>"; };
-		0456CF791C5B36C700389367 /* 垂直.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "垂直.gif"; sourceTree = "<group>"; };
+		0456CF791C5B36C700389367 /* Ver.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ver.gif; sourceTree = "<group>"; };
 		04F89BC91C48C588004F707B /* SDScrollVertical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDScrollVertical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F89BCD1C48C588004F707B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04F89BCF1C48C588004F707B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,19 +104,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0456CF701C5B16DA00389367 /* 屏幕录制 */ = {
+		0456CF701C5B16DA00389367 /* GIF */ = {
 			isa = PBXGroup;
 			children = (
-				0456CF791C5B36C700389367 /* 垂直.gif */,
+				0456CF791C5B36C700389367 /* Ver.gif */,
 				0456CF711C5B170700389367 /* 垂直滚播.mov */,
 			);
-			name = "屏幕录制";
+			name = GIF;
 			sourceTree = "<group>";
 		};
 		04F89BC01C48C587004F707B = {
 			isa = PBXGroup;
 			children = (
-				0456CF701C5B16DA00389367 /* 屏幕录制 */,
+				0456CF701C5B16DA00389367 /* GIF */,
 				04F89BCB1C48C588004F707B /* SDScrollVertical */,
 				04F89BE51C48C588004F707B /* SDScrollVerticalTests */,
 				04F89BF01C48C588004F707B /* SDScrollVerticalUITests */,
@@ -325,7 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0456CF7A1C5B36C700389367 /* 垂直.gif in Resources */,
+				0456CF7A1C5B36C700389367 /* Ver.gif in Resources */,
 				04F89BDC1C48C588004F707B /* LaunchScreen.storyboard in Resources */,
 				0456CF721C5B170700389367 /* 垂直滚播.mov in Resources */,
 				04F89BD91C48C588004F707B /* Assets.xcassets in Resources */,
